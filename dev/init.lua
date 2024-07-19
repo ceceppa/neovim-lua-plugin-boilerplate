@@ -21,7 +21,10 @@ end
 
 -- executes the run method in the package
 local run_action = function ()
-	require(package_name).greet()
+	local package = require(package_name)
+
+    package.setup()
+    package.greet()
 end
 
 -- unload and run the function from the package

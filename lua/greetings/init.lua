@@ -1,5 +1,11 @@
-local greet = require('greetings.awesome-module')
+local config = require('greetings.config')
+local greet = require('greetings.module')
+
+local setup = function(opts)
+    config.set(opts)
+end
 
 return {
-	greet = greet
+	greet = greet,
+    setup = setup
 }
