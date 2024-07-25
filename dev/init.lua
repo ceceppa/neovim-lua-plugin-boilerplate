@@ -1,3 +1,6 @@
+vim.opt.runtimepath:append(".")
+vim.opt.runtimepath = vim.opt.runtimepath + "."
+
 --[[
 -- plugin name will be used to reload the loaded modules
 --]]

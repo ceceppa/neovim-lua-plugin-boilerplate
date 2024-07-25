@@ -12,6 +12,5 @@ this one has built-in support for setup and configuration files.
 
 - clone the project `git clone git@github.com:ceceppa/neovim-lua-plugin-boilerplate.git`
 - go to the project folder `cd neovim-lua-plugin-boilerplate`
-- start editing `nvim --cmd "set rtp+=."`
 - reference the dev configurations `:luafile dev/init.lua`
 - run the greetings.greet() function using `,w` keybind
